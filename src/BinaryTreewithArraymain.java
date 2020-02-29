@@ -5,5 +5,6 @@ public class BinaryTreewithArraymain {
     obj.insert(20);
     obj.insert(5);
     obj.levelordertraversal();
+    obj.preorder(2);
   }
 }

@@ -29,4 +29,14 @@ public class BinaryTreeWithArray {
       System.out.println(arr[i]);
     }
   }
+public void preorder(int index)
+{
+  //System.out.println("Last Index="+ lastindex);
+  if (index > lastindex) {
+    return;
+  }
+  System.out.print(arr[index] + " ");
+  preorder(index * 2);
+  preorder(index * 2 + 1);
+}
 }
